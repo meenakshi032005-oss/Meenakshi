@@ -1,19 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(to right, #8e44ad, #3498db);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.profile-img {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 40px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+/* SECTIONS */
+section {
+    padding: 60px 20px;
     text-align: center;
 }
 
-header {
-    background-color: #4CAF50;
-    color: white;
-    padding: 40px;
+.about {
+    background: #f4f4f4;
 }
 
-section {
-    margin: 20px;
-    padding: 20px;
-    background: white;
-    border-radius: 10px;
+.skills ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.skills li {
+    margin: 10px 0;
+}
+
+.projects {
+    background: #f4f4f4;
+}
+
+.contact {
+    background: #222;
+    color: white;
+}
+
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
 }

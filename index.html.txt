@@ -1,35 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>Meenakshi Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <img src="profile.jpg" alt="Meenakshi" class="profile-img">
         <h1>Hi, I'm Meenakshi 👋</h1>
-        <p>Web Designer | Web Developer</p>
-    </header>
-
-    <section>
-        <h2>About Me</h2>
-        <p>I am passionate about web designing and development.</p>
+        <p>Aspiring Web Developer</p>
+        <a href="#contact" class="btn">Contact Me</a>
     </section>
 
-    <section>
+    <!-- ABOUT SECTION -->
+    <section class="about">
+        <h2>About Me</h2>
+        <p>
+            I'm a passionate and self-motivated web developer 
+            currently learning HTML, CSS and PHP.
+            I love creating beautiful and responsive websites.
+        </p>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section class="skills">
         <h2>My Skills</h2>
         <ul>
             <li>HTML</li>
-            <li>CSS</li>
-            <li>Photoshop</li>
-            <li>PHP</li>
+            <li>adobe photoshop</li>
+            <li>graphics designing</li>
+            <li>PHP basics</li>
         </ul>
     </section>
 
-    <section>
-        <h2>contact: 7358800539</h2>
-        <p>Email: meenakshi032005@gmail.com</p>
+    <!-- PROJECTS SECTION -->
+    <section class="projects">
+        <h2>My Projects</h2>
+        <p>✔ Personal Portfolio Website</p>
+        <p>✔ More projects coming soon...</p>
     </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact" id="contact">
+        <h2>Contact : 7358800539</h2>
+        <p>Email: meenakshi032005@gmail.com</p>
+        <p>Location: Tamil Nadu, India</p>
+    </section>
+
+    <footer>
+        <p>© 2026 Meenakshi | All Rights Reserved</p>
+    </footer>
 
 </body>
 </html>
