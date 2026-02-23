@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Meenakshi Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Hi, I'm Meenakshi 👋</h1>
+        <p>Web Designer | Web Developer</p>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>I am passionate about web designing and development.</p>
+    </section>
+
+    <section>
+        <h2>My Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Photoshop</li>
+            <li>PHP</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>contact: 7358800539</h2>
+        <p>Email: meenakshi032005@gmail.com</p>
+    </section>
+
+</body>
+</html>
