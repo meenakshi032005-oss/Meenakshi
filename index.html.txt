@@ -11,7 +11,7 @@
     <!-- HERO SECTION -->
     <section class="hero">
         <img src="profile.jpg" alt="Meenakshi" class="profile-img">
-        <h1>Hi, I'm Meenakshi 👋</h1>
+        <h1 style="color:navy ;">Hi, I'm Meenakshi 👋</h1>
         <p>Aspiring Web Developer</p>
         <a href="#contact" class="btn">Contact Me</a>
     </section>
@@ -56,4 +56,5 @@
     </footer>
 
 </body>
+
 </html>
